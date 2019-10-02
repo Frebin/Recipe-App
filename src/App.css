@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Yellowtail&display=swap");
 .App {
   min-height: 100vh;
   background-image: linear-gradient(
@@ -18,6 +19,8 @@
   width: 50%;
   border: none;
   padding: 10px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
 }
 
 .search-button {
@@ -25,10 +28,19 @@
   border: none;
   padding: 10px 20px;
   color: white;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
 .recipes {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.brand-name {
+  font-size: 30px;
+  font-family: "Yellowtail";
+  color: azure;
+  padding-right: 5%;
 }
