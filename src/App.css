@@ -30,6 +30,12 @@
   color: white;
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: rgb(204, 94, 94);
 }
 
 .recipes {
